@@ -44,7 +44,7 @@ The application is built around a central `VoiceAssistant` class ensuring modula
    
 ## 1. Create and activate a virtual environment:
 python -m venv venv
-# On Windows:
+### On Windows:
 venv\Scripts\activate
 
 ## 2. Install dependencies:
