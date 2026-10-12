@@ -40,3 +40,27 @@ The application is built around a central `VoiceAssistant` class ensuring modula
    ```bash
    git clone [https://github.com/sahilpadghamod/nova-voice-assistant.git](https://github.com/sahilpadghamod/nova-voice-assistant.git)
    cd nova-voice-assistant
+
+   
+## 1. Create and activate a virtual environment:
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+
+## 2. Install dependencies:
+pip install -r requirements.txt
+
+## 3. Configure Environment Variables:
+### Create a .env file in the root directory and add your Gemini API key:
+GEMINI_API_KEY=your_actual_api_key_here
+
+## 4. Run the main application script from your terminal:
+python assistant.py
+
+## 🔮 Future Scope
+
+Implementation of a GUI using Tkinter or PyQt.
+
+Custom wake-word detection (e.g., using Porcupine) to eliminate the continuous listening loop.
+
+Calendar and scheduling integration.
